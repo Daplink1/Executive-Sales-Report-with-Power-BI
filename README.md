@@ -7,21 +7,23 @@
 
 This project involves analyzing DTLM Retail’s sales data to deliver key insights through Power BI. We’ll calculate revenue and profit for each order, generate reports on revenue trends, top products, sales teams, and state performance, and create an interactive dashboard. Key highlights will include top products and sales teams, as well as insights into revenue, population, and median income by state.
 
+
 ## Table of Content
 
-- Project Overview
-- Statement of Problem
-- Data Source
-- Data Cleaning and Transformation
-- Data Modelling
-- Data Analysis & Visualization
-- Result and Insights
-- Recommendation 
+- [Project Overview](#project-overview)
+- [Statement of Problem](#statement-of-problem)
+- [Data Source](#data-source)
+- [Data Cleaning and Transformation](#data-cleaning-and-transformation)
+- [Data Modelling](#data-modelling)
+- [Data Analysis and Visualization](#data-analysis-and-visualization)
+- [Result and Insights](#result-and-insights)
+- [Recommendation](#recommendation)
 
 
 ## Project Overview
 
 DTLM Retail aims to gain actionable insights from its sales data to drive strategic decision-making and optimize business performance. The Sales Director has identified key areas where a comprehensive data analysis can enhance understanding and provide valuable information about the company's operations and market position. 
+
 
 ### Statement of Problem
 
@@ -46,9 +48,11 @@ As the data analyst for DTLM Retail, the Sales Director has requested the follow
  - Which sales team made most revenue from Decoratives in March?
  - What is the relationship between revenue, population and median income of the states?
 
+
 ## Data Source
 
 This a real world data provided by DTLM retail store. They intended to optimize their sales performance through insightful data analysis. The dataset comprises four sheets: product, sales table, sales team and store location.
+
 
 ## Data Cleaning and Transformation
 
@@ -69,34 +73,38 @@ The model is a star schema
 
 The csv file contains 4 tables (Product, sales, sales team and location table) which was connected to one another using one to many relationship
 
-## Data Analysis & Visualization
+
+## Data Analysis and Visualization
 
 ![](sale_dashboard_final.PNG)
+
 
 ### Products Analysis
 ![](%Revenue_of_product)
 
 - There are 49 products in the store which are group into 10 product categories. 
 - The top 5 products by revenue are clock, vases, clockware, ornaments and phone while the top 3 of product category are docorative, furniture and kitchenery.
+
   
 ### Sales Team Analysis
 
 ![](Revenue_by_STeam.PNG)
 
 - There are 28 sales team and the 10 most performing team in terms revenue are:
-          Team            |         Revenue(million) 
-  :----------------------:|:--------------------------:|              |         
-  Nicholas Cunningham     |           1.86
-  Doanald Reynolds        |           1.80
-  Joe Price               |           1.77
-  Shaw Wallace            |           1.77
-  Carl Nguyen             |           1.75
-  Paul Holmes             |           1.74
-  Adam Hernandez          |           1.74
-  Shawn Cook              |           1.73
-  Anthony Berry           |           1.73
-  Patrick Graham          |           1.73
+  |  Team       |  Revenue(million) |
+  |-------------|-------------------|
+  |Nicholas Cunningham   |   1.86 |
+  |Doanald Reynolds |   1.80 |
+  |Joe Price  |   1.77  |
+  |Shaw Wallace   |  1.77  |
+  |Carl Nguyen  |  1.75  |
+  |Paul Holmes  |  1.74 |
+  |Adam Hernandez  |  1.74  |
+  |Shawn Cook  |  1.73  |
+  |Anthony Berry  |  1.73  |
+  |Patrick Graham  |  1.73 |
 - The sales team with the highest revenue in decoration is Doanald Reynolds.
+
   
 ### Monthly Trend
 
@@ -106,12 +114,14 @@ The csv file contains 4 tables (Product, sales, sales team and location table) w
 - The best month base on revenue is May follow by January.
 - There was a sharp decline of revenue in February after a very profitable January
 - The top 2 revenue products in January are wine storage and wreaths
+
  
-### Analysis of the States  
+### Revenue Contribution by State  
 ![](RPM_by_State.PNG)
 
 - There are total of 45 state and the 10 top performing of them in terms of revenue are; Califonia, Texas, Illinois, Florida, New York, Indiana, Colorado, Arizona, Connecticut and North Carolina.
 - There is a positive correlation between population, median income and revenue. There is high revenue where there is a high population and median income just like the case of Carolina and New York.
+
   
 ## Result and Insights
 
@@ -124,14 +134,15 @@ Based on the results of the analysis, the following insights were derived:
 
 ## Recommendation
 
-
 It is therefore recommended that:
-- More advertisement and discounts should be done during January and May to increase sales.
+- More advertisement and discounts should be done during January and May to increase sales.😄
 - Decorative products should be givrn more atention over other products because it generate over one-quarter of the total revenue.
 - Promotion and incentives should be given to the the best performing sales team to motivate them to do more and to bring sales competition among the sales team.
 - State with high population and median income should be most targeted for sales for more revenue.
 
+## Limitation
 
+The dataset doesn't cover all the months of the year. So certain generalization can not be made.😠
 
 
 
