@@ -1,4 +1,4 @@
-## Executive Sales Report
+# Executive Sales Report
 
 
 ## Introduction
@@ -63,7 +63,7 @@ The following data cleaning and transformation processes were carried out before
 
 ## Data Modelling 
 
-Picture![]()
+![](sales_exec_model_view.JPG)
 
 The model is a star schema
 
@@ -71,16 +71,17 @@ The csv file contains 4 tables (Product, sales, sales team and location table) w
 
 ## Data Analysis & Visualization
 
-picture
+![](sale_dashboard_final.PNG)
 
 ### Products Analysis
+![](%Revenue_of_product)
 
 - There are 49 products in the store which are group into 10 product categories. 
 - The top 5 products by revenue are clock, vases, clockware, ornaments and phone while the top 3 of product category are docorative, furniture and kitchenery.
   
 ### Sales Team Analysis
 
-picture
+![](Revenue_by_STeam.PNG)
 
 - There are 28 sales team and the 10 most performing team in terms revenue are:
           Team            |         Revenue(million) 
@@ -99,14 +100,16 @@ picture
   
 ### Monthly Trend
 
+![](RevenueTrend.PNG)
+
 - There is no sales record from June till December
 - The best month base on revenue is May follow by January.
 - There was a sharp decline of revenue in February after a very profitable January
 - The top 2 revenue products in January are wine storage and wreaths
  
 ### Analysis of the States  
+![](RPM_by_State.PNG)
 
-Picture
 - There are total of 45 state and the 10 top performing of them in terms of revenue are; Califonia, Texas, Illinois, Florida, New York, Indiana, Colorado, Arizona, Connecticut and North Carolina.
 - There is a positive correlation between population, median income and revenue. There is high revenue where there is a high population and median income just like the case of Carolina and New York.
   
@@ -118,7 +121,10 @@ Based on the results of the analysis, the following insights were derived:
 - Decorative is the best selling product category with over 30% revenue.
 - The top 5 products by revenue are clock, vases, clockware, ornaments and phone
 
+
 ## Recommendation
+
+
 It is therefore recommended that:
 - More advertisement and discounts should be done during January and May to increase sales.
 - Decorative products should be givrn more atention over other products because it generate over one-quarter of the total revenue.
