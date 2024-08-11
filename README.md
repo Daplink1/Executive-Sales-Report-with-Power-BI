@@ -53,6 +53,7 @@ As the data analyst for DTLM Retail, the Sales Director has requested the follow
 
 This a real world data provided by DTLM retail store. They intended to optimize their sales performance through insightful data analysis. The dataset comprises four sheets: product, sales table, sales team and store location.
 
+Download the sales analysis dataset [here](https://github.com/user-attachments/files/16574263/Sales.Analysis.xlsx)
 
 ## Data Cleaning and Transformation
 
@@ -117,7 +118,8 @@ The csv file contains 4 tables (Product, sales, sales team and location table) w
 
  
 ### Revenue Contribution by State  
-![](RPM_by_State.PNG)
+
+![RPM_by_state](https://github.com/user-attachments/assets/fbb12b98-e068-48ac-9f73-546e0f9b1b49)
 
 - There are total of 45 state and the 10 top performing of them in terms of revenue are; Califonia, Texas, Illinois, Florida, New York, Indiana, Colorado, Arizona, Connecticut and North Carolina.
 - There is a positive correlation between population, median income and revenue. There is high revenue where there is a high population and median income just like the case of Carolina and New York.
@@ -142,10 +144,12 @@ It is therefore recommended that:
 
 ## Limitation
 
-The dataset doesn't cover all the months of the year. So certain generalization can not be made.😠
+The dataset doesn't cover all the months of the year. So certain generalizations can not be made.😠
 
 
 
+
+![](https://t4.ftcdn.net/jpg/05/05/39/07/360_F_505390776_8ilykzGiVSpIjUqdEXFhDY1ACRJZPDRD.jpg)
 
 
 
